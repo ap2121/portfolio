@@ -1,0 +1,81 @@
+body {
+  background-color: #245953;
+  font-family: 'Nova Flat', cursive;
+}
+
+.title-cnt {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  font-size: 40px;
+}
+.img-cnt {
+  display: flex;
+  justify-content: center;
+}
+
+
+img {
+  border-radius: 50%;
+}
+h1 {
+  color: #E49393;
+}
+
+.icon-cnt {
+  display: flex;
+  justify-content: center;
+
+}
+
+.icon-img {
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+}
+
+.skills-title-cnt {
+  display: flex;
+  justify-content: center;
+}
+
+
+.skills-cnt {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+ 
+  
+}
+
+.skill {
+  margin: 10px;
+  background: #E49393;
+  padding: 20px;
+}
+
+
+ .pjct-cnt {
+  display: flex;
+  justify-content: space-around;
+  
+  
+  
+  
+} 
+.pjct-icon {
+  height: 75px;
+  width: 75px;
+}
+
+.project {
+  margin: 10px;
+  text-align: center;
+  min-height: 100px;
+  max-height: 200px;
+  min-width: 200px;
+  max-width: 300px;
+}
