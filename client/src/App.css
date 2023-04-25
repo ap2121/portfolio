@@ -3,8 +3,21 @@
   margin: 0;
 }
 body {
-  background-color: #245953;
+  background-image: url('https://www.icegif.com/wp-content/uploads/2022/07/icegif-1404.gif');
+  background-size: cover;
+ 
   font-family: 'Nova Flat', cursive;
+}
+
+.nav-cnt {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: underline;
+  height: 65px;
+  color: white;
+  font-size: 20px;
+  
 }
 
 .title-cnt {
@@ -14,7 +27,30 @@ body {
 }
 
 .title {
-  font-size: 40px;
+  font-size: 60px;
+  text-decoration: underline;
+  color: white;
+}
+
+.bio-cnt {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 25px;
+}
+
+.bio-cnt2 {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  border-bottom: 4px ridge white;
+  padding: 20px;
+  margin-bottom: 30px;
+  color: white;
+  font-size: 25px;
 }
 .img-cnt {
   display: flex;
@@ -26,12 +62,13 @@ img {
   border-radius: 50%;
 }
 h1 {
-  color: #E49393;
+  color: #9BA4B5;
 }
 
 .icon-cnt {
   display: flex;
-  justify-content: center;
+  
+  
 
 }
 
@@ -44,12 +81,21 @@ h1 {
 .skills-title-cnt {
   display: flex;
   justify-content: center;
+  margin-top: 50px;
 }
 
 .skills-title {
   font-size: 40px;
+  text-decoration: underline;
+  color: white;
 }
 
+
+
+.full-skill-cnt {
+  display: flex;
+  justify-content: space-around;
+}
 .big-skills-cnt {
   display: flex;
   justify-content: center;
@@ -59,11 +105,12 @@ h1 {
 .skills-cnt {
   display: flex;
   overflow: scroll;
-  justify-content: center;
+  justify-content: flex-start;
+  flex-direction: column;
   align-items: center;
-  height: 100px;
-  width: 500px;
-  border: 2px solid #E49393;
+  height: 150px;
+  width: 400px;
+  border: 4px ridge white;
   border-radius: 25px;
   
   
@@ -75,7 +122,7 @@ h1 {
 
 .skill {
   margin: 10px;
-  background: #E49393;
+  background: #262A56;
   text-align: center;
   font-size: 15px;
   width: 100px;
@@ -84,20 +131,37 @@ h1 {
   color: white;
 }
 
+
+
+
 .pjct-title-cnt {
   display: flex;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .pjct-title {
   font-size: 40px;
+  color: white;
+  text-decoration: underline;
  
 }
+.big-pjct-cnt {
+  display: flex;
+  justify-content: center;
+}
+
  .pjct-cnt {
   display: flex;
- 
-  justify-content: center;
+  flex-direction: column;
+  justify-content: flex-start;
   align-items: center;
+  border: 4px ridge white;
+  border-radius: 25px;
+  padding: 40px;
+  height: 300px;
+  overflow: scroll;
+  
   
   
   
@@ -112,14 +176,16 @@ h1 {
 }
 
 .project {
-  margin: 10px;
+  margin-bottom: 5px;
+  
   text-align: center;
   
   height: 250px;
-  width: 500px;
-  border: 2px solid #E49393;
+  width: 400px;
+  border: 2px ridge white;
   border-radius: 25px;
   padding: 10px;
+  
   
 }
 
@@ -134,11 +200,27 @@ h1 {
   
 }
 
+
+.pjct-btn-cnt {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 3px ridge white;
+  margin-bottom: 40px;
+  
+}
+
 .btns {
-  margin-top: auto;
-  background-color: #E49393;
+  
+  background-color: #262A56;
   color: white;
-  border-radius: 25px;
-  width: 100px;
-  margin-top: none;
+  border-radius: 35px;
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  font-family: 'Nova Flat', cursive;
+  cursor: pointer;
+  margin-bottom: 35px;
+
+ 
 }
