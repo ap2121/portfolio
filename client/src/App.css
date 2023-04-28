@@ -3,9 +3,8 @@
   margin: 0;
 }
 body {
-  background-image: url('https://www.icegif.com/wp-content/uploads/2022/07/icegif-1404.gif');
+  background-image: url('https://i.pinimg.com/originals/e9/db/09/e9db09b6ff90a4b6cf6f5b01a118524f.gif');
   background-size: cover;
- 
   font-family: 'Nova Flat', cursive;
 }
 
@@ -81,16 +80,19 @@ h1 {
 .skills-title-cnt {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
+  
 }
 
 .skills-title {
   font-size: 40px;
-  text-decoration: underline;
+
   color: white;
+  margin-bottom: 20px;
 }
 
-
+.skill-desc {
+  color: white;
+}
 
 .full-skill-cnt {
   display: flex;
@@ -223,4 +225,42 @@ h1 {
   margin-bottom: 35px;
 
  
+}
+.contact-title-cnt {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-title {
+  color: white;
+}
+
+.big-contact-cnt {
+  display: flex;
+  justify-content: center;
+}
+
+.contact-cnt {
+  display: flex;
+  justify-content: space-around;
+  
+  align-items: center;
+  
+  overflow: scroll;
+  
+  
+  border-radius: 25px;
+
+}
+
+.contact {
+  color: white;
+  background-color: #262A56;
+  padding: 20px;
+  border-radius: 35px;
+  width: 200px;
+  text-align: center;
+  margin: 10px;
+  font-size: 17px;
+
 }

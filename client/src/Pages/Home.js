@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 const Home = () => {
 
 
@@ -59,11 +60,7 @@ const projects = [{name: 'Synapse', description: 'Fully AI ran Social Media buil
   ))
     return (
     <div>
-       <div className='nav-cnt'>
-
-      <p>Projects</p>
-    <p>Contact</p>
-    </div>
+     
         <div className='title-cnt'>
         <h1 className='title'>
         Arthur Pate
@@ -74,21 +71,27 @@ const projects = [{name: 'Synapse', description: 'Fully AI ran Social Media buil
           
         </div>
         <div className='bio-cnt2'>
-          <p>Come and take a look!</p>
+          <p>I believe I can change the world</p>
         </div>
         
             
-            {/* <div className='icon-cnt'>
-            <Link to={'https://github.com/ap2121'} target='_blank'>
-            <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' className='icon-img'/> 
-            </Link>
-            <Link to={'https://www.linkedin.com/in/arthurpate21/'} target='_blank'>
-            <img src='https://cdn.iconscout.com/icon/free/png-256/linkedin-67-433325.png?f=avif&w=128' className='icon-img'/>
-            </Link>
-            
-            
-            
-            </div> */}
+        <div className='contact-title-cnt'>
+              
+              <h1 className='contact-title'>Where you can find me!</h1>
+              </div>
+              <div className='big-contact-cnt'>
+                <div className='contact-cnt'>
+                  
+                  <p className='contact'>arthurpate42@gmail.com</p>
+                  
+                  <Link to='https://github.com/ap2121' target='_blank'>
+                  <p className='contact'>Github</p>
+                  </Link>
+                  <Link to='https://www.linkedin.com/in/arthurpate21/' target='_blank'>
+                  <p className='contact'>LinkedIn</p> 
+                  </Link>
+                </div>
+              </div>
        
         
         
@@ -100,27 +103,28 @@ const projects = [{name: 'Synapse', description: 'Fully AI ran Social Media buil
                 <div className='big-skills-cnt'>
                 
                 <div className='skills-cnt'>
-                <h1>Programming Languages</h1>
+                <h1 className='skill-desc'>Programming Languages</h1>
                 {allSkills}
-                <h1>Programming Languages</h1>
+                <h1 className='skill-desc'>Programming Languages</h1>
                 </div>
                 </div>
               <div className='big-skills-cnt'>
               <div className='skills-cnt'>
-                <h1>Software/Technology</h1>
+                <h1 className='skill-desc'>Software/Technology</h1>
                 {allTechs}
-                <h1>Software/Technology</h1>
+                <h1 className='skill-desc'>Software/Technology</h1>
               </div>
               </div>
 
               <div className='big-skills-cnt'>
                 <div className='skills-cnt'>
-                  <h1>Currently Learning</h1>
+                  <h1 className='skill-desc'>Currently Learning</h1>
                   {allFuture}
-                  <h1>Currently Learning</h1>
+                  <h1 className='skill-desc'>Currently Learning</h1>
                 </div>
               </div>
-              </div>
+              </div>  
+              <section id='projects'>
             <div className='pjct-title-cnt'>
             <h1 className='pjct-title'>Projects</h1>
             </div>
@@ -130,6 +134,9 @@ const projects = [{name: 'Synapse', description: 'Fully AI ran Social Media buil
             
             </div>
             </div>
+            </section>
+           
+            
        
     </div>
   )
