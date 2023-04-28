@@ -84,10 +84,10 @@ const projects = [{name: 'Synapse', description: 'Fully AI ran Social Media buil
                   
                   <p className='contact'>arthurpate42@gmail.com</p>
                   
-                  <Link to='https://github.com/ap2121' target='_blank'>
+                  <Link to='https://github.com/ap2121' target='_blank' className='link'>
                   <p className='contact'>Github</p>
                   </Link>
-                  <Link to='https://www.linkedin.com/in/arthurpate21/' target='_blank'>
+                  <Link to='https://www.linkedin.com/in/arthurpate21/' target='_blank' className='link'>
                   <p className='contact'>LinkedIn</p> 
                   </Link>
                 </div>

@@ -127,7 +127,7 @@ h1 {
   background: #262A56;
   text-align: center;
   font-size: 15px;
-  width: 100px;
+  width: 150px;
   padding: 20px;
   border-radius: 25px;
   color: white;
@@ -179,7 +179,7 @@ h1 {
 
 .project {
   margin-bottom: 5px;
-  
+  background-color: #262A56;
   text-align: center;
   
   height: 250px;
@@ -199,6 +199,9 @@ h1 {
 
 .pjct-desc {
   color: white;
+  font-size: 15px;
+  
+  font-weight: bold;
   
 }
 
@@ -263,4 +266,8 @@ h1 {
   margin: 10px;
   font-size: 17px;
 
+}
+
+.link {
+  text-decoration: none;
 }
